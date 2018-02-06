@@ -30,7 +30,7 @@ class EventRequest extends FormRequest
         return [
             'title'             => 'required',
             'description'       => 'required',
-            'eventdate'         => 'required|after:today',
+            'eventdate'         => 'required|after:today|date_format:d/m/Y',
             'location'          => 'required',
             'state'             => 'required',
             'image'             => 'image|mimes:jpg,jpeg,png,gif'

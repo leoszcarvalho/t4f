@@ -40,11 +40,14 @@ class EventController extends Controller
             $request->image->move($path, $thumb);
         }
 
+        $data = implode("-", array_reverse(explode("/", trim($request->eventdate))));
+
+        $date = date('Y-m-d', strtotime($data));
 
         $event   = $this->model->create([
             'title'             =>  $request->title,
             'description'       =>  $request->description,
-            'eventdate'         =>  $request->eventdate,
+            'eventdate'         =>  $date,
             'location'          =>  $request->location,
             'state'             =>  $request->state,
             'image'             => (isset($request->image) ?  $path.'/'.$thumb : 'nao'),
