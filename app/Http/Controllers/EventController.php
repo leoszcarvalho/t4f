@@ -50,7 +50,7 @@ class EventController extends Controller
             'eventdate'         =>  $date,
             'location'          =>  $request->location,
             'state'             =>  $request->state,
-            'image'             => (isset($request->image) ?  $path.'/'.$thumb : 'nao'),
+            'image'             => (isset($request->image) ?  config('app.url').'/dbimages/'.$thumb : ''),
         ]);
 
 

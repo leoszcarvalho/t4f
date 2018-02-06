@@ -6,6 +6,7 @@ Scrum
 http://conde.online/trello.png
 
 Vídeo de apresentação
+https://www.useloom.com/share/84bbb6a262454d879eca2eccbe2080bf
 
 
 # Requisitos necessários
@@ -72,12 +73,7 @@ via Postman
 
 Prezados, 
 
-Pelo escopo apresentado fiquei com algumas dúvidas referentes ao projeto teste, como por exemplo sobre a possiblidade de utilização de banco de dados, a criação da API em um projeto separado, o select do tipo 'marca' e outros. 
-
-Finalizei da forma que eu enxergo que é solicitado no teste. 
-
-Gostaria de me apresentar e bater um papo com a equipe. 
-
-Desde já agradeço. 
-
-No mais estou à disposição!
+Conforme citado no video, fiquei em dúvida referente ao carrinho de compras, porém procurei uma forma de resolver 
+o teste com o escopo apresentado.
+Utilizei laravel 5.5 com mysql e acredito estar nos padrões solicitados pela T4F.
+ 
